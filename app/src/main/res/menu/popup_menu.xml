@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/selectColor"
+        android:title="Select Color">
+        <menu>
+            <group android:checkableBehavior="all">
+                <item
+                    android:icon="@drawable/baseline_directions_run_24"
+                    android:id="@+id/red"
+                    android:title="Red" />
+                <item
+                    android:icon="@drawable/baseline_delete_outline_24"
+                    android:id="@+id/green"
+                    android:title="Green" />
+                <item
+                    android:icon="@drawable/baseline_desktop_mac_24"
+                    android:id="@+id/yellow"
+                    android:title="Yellow" />
+            </group>
+        </menu>
+    </item>
+</menu>
